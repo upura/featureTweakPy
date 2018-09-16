@@ -65,10 +65,10 @@ rfc.fit(x_arr, y_arr)
 
 ```
 class_labels = [0, 1, 2]  # Same as input[7]
-aim_label = 2 # Same as input[7]
+aim_label = 2
 epsilon = 0.1
 class_labels = [0, 1, 2]  # Same as input[7]
-aim_label = 2 # Same as input[7]
+aim_label = 2
 epsilon = 0.1
 ```
 
