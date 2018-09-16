@@ -2,6 +2,18 @@ featureTweakPy
 ===
 How can prediction result be changed?
 
+## Referrence
+[This ipynb](https://github.com/upura/featureTweakPy/blob/master/Interpretable-Predictions-of-Tree-based-Ensembles.ipynb) is inspired by the following link:  
+http://setten-qb.hatenablog.com/entry/2017/10/22/232016
+
+I fixed some codes and added some explanations:
+
+- Fix `load_iris()` to `datasets.load_iris()` at In [2]
+- Fix `rfc.fit(x, y)` to `rfc.fit(x_arr, y_arr)` at In [3]
+- Fix `aim_label = 3` to `aim_label = 2` at In [7] and [22]
+- Add the usage of feature_tweaking()
+- Add featureTweakPy.py to extract functions
+
 ## Description
 Python implementation of Interpretable Predictions of Tree-based Ensembles via Actionable Feature Tweaking (KDD 2017)  
 https://arxiv.org/abs/1706.06691
@@ -16,7 +28,7 @@ https://arxiv.org/abs/1706.06691
 
 ### Download
 ```
-git clone  git@github.com:upura/featureTweakPy.git
+git clone git@github.com:upura/featureTweakPy.git
 cd featureTweakPy
 ```
 
