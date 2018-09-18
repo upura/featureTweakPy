@@ -64,10 +64,7 @@ rfc.fit(x_arr, y_arr)
 #### Hyper Parameters Setting
 
 ```
-class_labels = [0, 1, 2]  # Same as input[7]
-aim_label = 2
-epsilon = 0.1
-class_labels = [0, 1, 2]  # Same as input[7]
+class_labels = [0, 1, 2]
 aim_label = 2
 epsilon = 0.1
 ```
