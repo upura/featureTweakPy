@@ -89,7 +89,6 @@ array([5.1, 3.5, 1.4, 0.2])
 #### Using feature_tweaking()
 
 ```
-feature_tweaking(rfc, x, class_labels, aim_label, epsilon, cost_func)
 x_new = feature_tweaking(rfc, x, class_labels, aim_label, epsilon, cost_func)
 x_new
 ```
